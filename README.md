@@ -1,7 +1,6 @@
-Rotas da API:
+Rotas da API
 
-URL padrão:
--localhost:8080/api/
+URL padrão: localhost:8080/api/
 
 Cliente:
 Salvar:
