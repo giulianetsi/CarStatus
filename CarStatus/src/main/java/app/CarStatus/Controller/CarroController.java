@@ -63,7 +63,7 @@ public class CarroController {
     }
 
     @DeleteMapping("/{id}")
-    public void deleteKudoBoxById( @PathVariable Long id ) {
+    public void deleteTudoById( @PathVariable Long id ) {
         service.deletarPorId(id);
     }
 }

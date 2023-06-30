@@ -14,6 +14,7 @@ public class MecanicoMapper {
         novoMecanico.setId(mecanico.getId());
         novoMecanico.setNome(mecanico.getNome());
         novoMecanico.setCpf(mecanico.getCpf());
+        novoMecanico.setTelefone(mecanico.getTelefone());
         novoMecanico.setPrecoHora(mecanico.getPrecoHora());
         return novoMecanico;
     }
@@ -23,6 +24,7 @@ public class MecanicoMapper {
         mecanicoDTO.setId(mecanicoEntity.getId());
         mecanicoDTO.setNome(mecanicoEntity.getNome());
         mecanicoDTO.setCpf(mecanicoEntity.getCpf());
+        mecanicoDTO.setCpf(mecanicoEntity.getTelefone());
         mecanicoDTO.setPrecoHora(mecanicoEntity.getPrecoHora());
         return mecanicoDTO;
     }

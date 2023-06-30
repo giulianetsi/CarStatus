@@ -19,9 +19,9 @@ public class MecanicoController {
     @PostMapping
     public ResponseEntity<Object> salvarMecanico(@RequestBody MecanicoDTO mecanico ){
         try{
-            return new ResponseEntity<>( service.save( MecanicoMapper.converterParaEntity(mecanico) ), HttpStatus.CREATED );
+            return new ResponseEntity<>(service.save(MecanicoMapper.converterParaEntity(mecanico)), HttpStatus.CREATED);
         }catch (Exception e){
-            return new ResponseEntity<>( HttpStatus.BAD_REQUEST );
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
     }
 
